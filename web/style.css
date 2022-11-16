@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: "Roboto Light", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2 {
+    text-align: start;
+    margin: 0;
+}
+
+.container, .intro, .cake-portfolio, .motto, .order, footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.container {
+    padding-top: 20px;
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    gap: 10px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    text-align: start;
+}
+
+.hero {
+    display: flex;
+    color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.hero div {
+    min-width: 400px;
+    flex: 1 1 auto;
+}
+
+.hero p {
+    max-width: 400px;
+}
+
+.hero img {
+    min-width: 400px;
+    flex: 1 1 0;
+    border-radius: 4px;
+}
+
+
+header img {
+    flex: 0 0 auto;
+    border-radius: 10px;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 6px;
+    color: #F9FAF8;
+    padding: 8px 30px;
+}
+
+.cake-portfolio {
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.cake-portfolio h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cakes ul {
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.cakes h2 {
+    margin-bottom: 20px;
+}
+
+.cake {
+    width: 200px;
+}
+
+.cake img {
+    border: solid 2px #3882F6;
+    border-radius: 10px;
+}
+
+.cake p {
+    text-align: center;
+}
+
+.motto, .order, .cake-portfolio {
+    flex: 1;
+}
+
+.motto {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.motto p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+cite {
+    align-self: end;
+    flex: 0;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.order div {
+    margin: 60px 0;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 80px;
+    gap: 40px;
+}
+
+.order p {
+    margin: 0;
+    font-weight: 300;
+    color: #E5E7EB;
+}
+
+.order button {
+    border: solid 2px #E5E7EB;
+    border-radius: 10px;
+}
+
+.order section {
+    max-width: 600px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
