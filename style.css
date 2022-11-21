@@ -6,7 +6,7 @@ body {
     /*min-width: 800px;*/
     width: 100%;
     margin: 0;
-    font-family: "Roboto Light", sans-serif;
+    font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
 }
